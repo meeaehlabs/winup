@@ -3,18 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.example.uptime</string>
+    <string>com.metric.uptime</string>
     <key>ProgramArguments</key>
     <array>
         <string>/Users/Shared/uptime.sh</string>
     </array>
-    <key>StartCalendarInterval</key>
-    <dict>
-        <key>Hour</key>
-        <integer>9</integer>
-        <key>Minute</key>
-        <integer>0</integer>
-    </dict>
     <key>KeepAlive</key>
     <dict>
         <key>OtherUserLogins</key>
@@ -22,9 +15,11 @@
     </dict>
     <key>RunAtLoad</key>
     <true/>
+    <key>StartOnMount</key>
+    <true/>
     <key>StandardErrorPath</key>
-    <string>/tmp/com.example.uptime.err</string>
+    <string>/tmp/com.metric.uptime.err</string>
     <key>StandardOutPath</key>
-    <string>/tmp/com.example.uptime.out</string>
+    <string>/tmp/com.metric.uptime.out</string>
 </dict>
 </plist>
