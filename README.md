@@ -3,10 +3,10 @@ script to manage excessive uptime on windows computers
 
 
 To use either windows or mac remove files from the folders and store them as below 
+    
     Windows Use 
-    store all files in C:\Windows\Temp\uptime.ps1
-                       C:\Windows\Temp\uptimerun.bat
-
+        store all files in C:\Windows\Temp\uptime.ps1
+        C:\Windows\Temp\uptimerun.bat
     Run the .bat file to create new directory copy files to directory and setup a system scheduled task 
 
 
@@ -14,7 +14,7 @@ To use either windows or mac remove files from the folders and store them as bel
         store the uptime.sh file in the /tmp/uptime.sh
         the com.metric.uptime.plist also in the /tmp/com.metric.uptime.plist
 
-    finally run the below commands 
+        finally run the below commands 
         cp /tmp/uptime.sh /Users/Shared
         cp /tmp/com.metric.uptime.plist /Library/LaunchDaemons
         sudo launchctl load /Library/LaunchDaemons/com.metric.uptime.plist
