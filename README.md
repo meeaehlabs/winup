@@ -19,4 +19,4 @@ To use either windows or mac remove files from the folders and store them as bel
         cp /tmp/com.metric.uptime.plist /Library/LaunchDaemons
         sudo launchctl load /Library/LaunchDaemons/com.metric.uptime.plist
     this will store the uptime bash script in the shared users directory and will put the plist in the LaunchDaemons directory so that it will run on a system schedule
-both schedules mac and windows are form 9am system time 
+both schedules mac and windows are for when the system unlocks 
